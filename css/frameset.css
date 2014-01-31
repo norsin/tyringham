@@ -59,14 +59,18 @@ a:visited {
 /* page elements classes */
 
 .wrapper {
-    background: url(../images/background_buchstart.jpg) 0px 0px no-repeat;
+    background: url(../images/background.jpg) 0px 0px no-repeat;
     width: 810px;
-    height: 890px;
+    height: 1100px;
 }
 
 .heading {
-    text-transform: uppercase;
-    line-height: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1em;
+    font-size: 39pt;
+    font-family: Garamond;
+    font-weight: lighter;
+    color: #a56c77;
 }
 
 .header h1 {
@@ -76,6 +80,20 @@ a:visited {
 .claimHeader {
     padding: 70px 0px 0px 0px;
     text-align: center;
+}
+
+.text {
+    font-family: Garamond;
+    font-size: 1.1em;
+    text-align: center;
+    color: #4d4d4d;
+    font-weight: lighter;
+
+}
+
+
+.textfeld {
+    position: absolute;
 }
 
 .content {
@@ -190,8 +208,8 @@ a.button {
     cursor: pointer;
 }
 
-.button.gewinnspiel {
-    background: url(../images/button_gewinnspiel.png) 0px 0px no-repeat;
+.button.hoerprobe {
+    background: url(../images/button_hoerprobe.png) 0px 0px no-repeat;
     width: 280px;
     height: 35px;
     overflow: hidden;
@@ -200,8 +218,8 @@ a.button {
     margin-left: 20px;
 }
 
-.button.teilen {
-    background: url(../images/button_teilen.png) 0px 0px no-repeat;
+.button.hoerbuch {
+    background: url(../images/button_hoerbuch.png) 0px 0px no-repeat;
     width: 145px;
     height: 0px;
     overflow: hidden;
@@ -210,8 +228,8 @@ a.button {
     margin-left: 140px;
 }
 
-.button.teilnehmen {
-    background: url(../images/button_teilnehmen.png) 0px 0px no-repeat;
+.button.download {
+    background: url(../images/button_download.png) 0px 0px no-repeat;
     width: 175px;
     height: 0px;
     overflow: hidden;
@@ -219,8 +237,8 @@ a.button {
     float: left;
 }
 
-.button.bookPage {
-    background: url(../images/button_zumbuch.png) 0px 0px no-repeat;
+.button.leseprobe {
+    background: url(../images/button_leseprobe.png) 0px 0px no-repeat;
     width: 280px;
     height: 35px;
     overflow: hidden;
@@ -229,8 +247,8 @@ a.button {
     margin-left: 20px;
 }
 
-.button.backToHome {
-    background: url(../images/button_zurueck.png) 0px 0px no-repeat;
+.button.buch {
+    background: url(../images/button_buch.png) 0px 0px no-repeat;
     width: 180px;
     height: 35px;
     overflow: hidden;
@@ -239,8 +257,8 @@ a.button {
     margin-left: 20px;
 }
 
-.button.trailer {
-    position: absolute;
+.button.ebook {
+    background: url(../images/button_ebook.png) 0px 0px no-repeat;
     top: 455px;
     left: 650px;
     width: 110px;
@@ -267,6 +285,10 @@ a.button {
     width: 155px;
     overflow: hidden;
     line-height: 6em;
+}
+
+.button.teilen {
+    background: url(../images/button_share.png) 0px 0px no-repeat;
 }
 
 .sharebtn {
@@ -303,7 +325,7 @@ a.button {
 }
 
 .page-book .bookDetails {
-	margin: 100px auto auto 30px;
+	margin: 135px auto auto 13px;
 }
 
 .page-book .bookDetails .highlight {
@@ -609,7 +631,7 @@ a.button {
         display: block;
         margin: 0px;
     }
-    
+
     .titleMainBlock {
         font-size: 180%;
         width: 100%;
