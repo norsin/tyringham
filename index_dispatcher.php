@@ -21,7 +21,7 @@ if(!isset($_SESSION['currentPage'])) {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
-        <title>Das Falsche in mir</title>
+        <title>Die Frauen von Tyringham Park</title>
         <meta name="description" content="Beklemmend und gnadenlos. Nimm an unserer Buchverlosung teil und gewinne ein Exemplar oder einen Download von Christa Bernuths packendem Thriller „Das Falsche in mir“!/>
         <link rel="image_src" href="">
         <meta property="og:image" content="http://f-bilandia.de/dtv/dasfalsche/images/share.jpg"/>
@@ -40,7 +40,7 @@ if(!isset($_SESSION['currentPage'])) {
         <script type="text/javascript">
             if (top == self) 
             { 
-                top.location = "https://www.facebook.com/dtvVerlag/app_1417760998464017?ref=ts"; 
+                top.location = "https://www.facebook.com/BasteiLuebbe/app_251639345009802?ref=ts"; 
             }
         </script>
     </head>
@@ -49,7 +49,7 @@ if(!isset($_SESSION['currentPage'])) {
         <script type="text/javascript">
             window.fbAsyncInit = function() {
                 //Your app details here
-                FB.init({appId: '318672431558398', status: true, cookie: true, xfbml: true});
+                FB.init({appId: '251639345009802', status: true, cookie: true, xfbml: true});
                 //Resize the iframe when needed
                 FB.Canvas.setAutoResize();
             };

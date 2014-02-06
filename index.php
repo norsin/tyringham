@@ -18,7 +18,7 @@ if(!isset($_SESSION['currentPage'])) {
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
-        <title>Das Falsche in mir</title>
+        <title>Die Frauen von Tyringham Park</title>
         <meta name="description" content="Beklemmend und gnadenlos. Nimm an unserer Buchverlosung teil und gewinne ein Exemplar oder einen Download von Christa Bernuths packendem Thriller „Das Falsche in mir“!/>
         <link rel="image_src" href="">
         <meta property="og:image" content="http://f-bilandia.de/dtv/dasfalsche/images/share.jpg"/>
