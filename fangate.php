@@ -11,16 +11,16 @@ require_once 'facebook.php';
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
         <title>Die Frauen von Tyringham Park</title>
-        <meta name="description" content="Schräg verliebt! Jetzt Fan werden und die skurrilsten Liebesgeschichten entdecken" />
+        <meta name="description" content="Die Frauen von Tyringham Park – Jetzt Fan werden und die spannende Familiensaga gewinnen!" />
         <link rel="image_src" href="img/share.jpg">
         <meta property="og:image" content="http://f-bilandia.de/luebbe/schraegverliebt/img/share.jpg"/>
-        <meta property="og:image:secure_url" content="https://f-bilandia.de/luebbe/schrageverliebt/img/share.jpg">
+        <meta property="og:image:secure_url" content="http://f-bilandia.de/luebbe/tyringham/images/share.jpg">
         <meta property="og:image:type" content="image/jpg">
         <meta property="og:image:width" content="200">
         <meta property="og:image:height" content="200">
-        <meta property="og:title" content="Schräg verliebt">
-        <meta property="og:description" content="Schräg verliebt! Jetzt Fan werden und die skurrilsten Liebesgeschichten entdecken" >
-        <meta property="og:url" content="http://f-bilandia.de/luebbe/schraeg_verliebt/weiche.php"/>
+        <meta property="og:title" content="Die Frauen von Tyringham Park">
+        <meta property="og:description" content="Leidschaftlich und voller Intrigen: Nimm an unserem Gewinnspiel teil und sicher dir ein Buch oder Hörbuch von Rosemary McLoughlins packender Familiensaga „Die Frauen von Tyringham Park“!" >
+        <meta property="og:url" content="http://f-bilandia.de/luebbe/tyringham/index.php"/>
         <link rel="stylesheet" href="main.css">
         <script type="text/javascript">
             if (top == self) 
