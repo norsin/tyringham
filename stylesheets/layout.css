@@ -24,6 +24,7 @@ body {
 .container {
 	background: #fff;
 	text-align: center;
+	padding-top: 15px;
 }
 
 .mainNav ul {
@@ -35,12 +36,17 @@ body {
 	background: #e5e5e5;
 }
 
-.navMenu ul li:last-child {
+.mainNav ul li:last-child {
 	float: right;
 }
 
-.phoneSpec {
+.tablet-content,
+.phone-content {
 	display: none;
+}
+
+.desktop-content {
+	display: block !important;
 }
 
 .heading {
@@ -99,6 +105,7 @@ margin-top: 80px;
 .book-page .bookCover {
 margin-top: -10%;
 width: 40%;
+margin-left: 30%;
 }
 
 .book-page .bottomNav {
@@ -124,6 +131,16 @@ width: 40%;
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 
+			.desktop-content,
+			.phone-content {
+				display: none !important;
+
+			}
+
+			.tablet-content {
+				display: block !important;
+			}
+
 			.navMenu li {
 				background: none;
 			}
@@ -146,6 +163,7 @@ width: 40%;
 			.book-page .bookCover {
 			width: 100% !important;
 			margin-top: 0 !important;
+			margin-left: 0;
 			}	
 
 			.book-page .secNav li {
@@ -157,15 +175,20 @@ width: 40%;
 				width: 100%;
 			}
 
-			.phoneSpec {
-				display: none !important;
-			}
 
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
+			.desktop-content,
+		        .tablet-content	{
+				display: none !important;
+			}
+
+			.phone-content {
+				display: block !important;
+			}
 			.navMenu li {
 				background: none;
 			}
@@ -190,14 +213,6 @@ width: 40%;
 				border-radius: 5px;
 				}
 				
-			.mobileSpec {
-				display: none !important;
-			}
-
-			.phoneSpec {
-				display: block;
-			}
-
 	}
 
 
