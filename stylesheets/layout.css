@@ -30,17 +30,16 @@ body {
 	width: 100%;
 }
 
-.mainNav ul li,
-.bottomNav li {
+.navMenu li {
 	float: left;
 	background: #e5e5e5;
 }
-.mainNav ul li:last-child,
-.bottomNav li:last-child {
+
+.navMenu ul li:last-child {
 	float: right;
 }
 
-.phone {
+.phoneSpec {
 	display: none;
 }
 
@@ -124,6 +123,22 @@ width: 40%;
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+			.navMenu li {
+				background: none;
+			}
+
+			.navMenu li a:link,
+			.navMenu li a:visited {
+			background: #e5e5e5;
+			display: block;
+			width: 90%;
+			margin-left: 5%;
+			margin-bottom: 10px;
+			padding: 5px 0px;
+			border-radius: 5px;
+			}
+
 			.book-page .content {
 			margin-top: 10px;
 			}
@@ -142,24 +157,7 @@ width: 40%;
 				width: 100%;
 			}
 
-			.book-page .secNav li a:link,
-			.book-page .secNav li a:visited, 
-			.book-page .bottomNav li a:link,
-			.book-page .bottonNav li a:visited {
-			background: #e5e5e5;
-			display: block;
-			width: 90%;
-			margin-left: 5%;
-			margin-bottom: 10px;
-			padding: 5px 0px;
-			border-radius: 5px;
-			}
-
-			.book-page .bottomNav li {
-				background: none;
-			}
-
-			.phone {
+			.phoneSpec {
 				display: none !important;
 			}
 
@@ -168,7 +166,7 @@ width: 40%;
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
-			.book-page .bottomNav li {
+			.navMenu li {
 				background: none;
 			}
 
@@ -181,7 +179,7 @@ width: 40%;
 				margin-left: 5%;
 			}
 
-			.book-page .bottomNav li a:link,
+			.navMenu li a:link,
 			.book-page .bottonNav li a:visited {
 				background: #e5e5e5;
 				display: block;
@@ -192,11 +190,11 @@ width: 40%;
 				border-radius: 5px;
 				}
 				
-			.mobile {
+			.mobileSpec {
 				display: none !important;
 			}
 
-			.phone {
+			.phoneSpec {
 				display: block;
 			}
 

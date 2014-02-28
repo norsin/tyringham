@@ -44,8 +44,8 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="container">
-		<nav class="mainNav fourteen columns offset-by-one mobile">
-			<ul>
+		<nav class="mainNav fourteen columns offset-by-one mobileSpec">
+			<ul class="navMenu">
 				<li class="seven columns"><a href="index.php">Gewinnspiel</a></li>
 				<li class="seven columns"><a href="book.php">Buch</a></li>
 			</ul>
@@ -53,13 +53,13 @@
 
 		<h1 class="heading heading1 fourteen columns offset-by-one">Die Frauen von Tyringham Park</h1>
 		
-		<ul class="phone">
+		<ul class="navMenu phoneSpec">
 			<li class="seven columns"><a href="index.php">Gewinnspiel</a></li>
 		</ul>
 
 		<div class="content fourteen columns offset-by-one">
 			<img src="images/bookcover.png" alt="book cover" class="bookCover"/>
-			<ul class="secNav mobile">
+			<ul class="navMenu secNav mobileSpec">
 				<li class="hoerprobe left"><a href="#">H&ouml;rprobe</a></li>		
 				<li class="hoerbuch left"><a href="#">Zum H&ouml;rbuch</a></li>		
 				<li class="download-hoerbuch left"><a href="#">Auch als H&ouml;rbuch-download</a></li>		
@@ -67,14 +67,14 @@
 				<li class="buch right"><a href="#">Zum Buch</a></li>		
 				<li class="e-book right"><a href="#">Auch als E-Book</a></li>		
 			</ul>
-			<p class="mobile">Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.<br />
+			<p class="mobileSpec">Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.<br />
 			Sed venenatis laoreet arcu, porta posuere ipsum fringilla a. Duis vestibulum non libero eu pharetra. Pellentesque adipiscing, ipsum at accumsan aliquam.</p>
-			<p class="phone">ALTERNATIVE TEXT FOR PHONES Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.</p>
-			<ul class="bottomNav">
-				<li><a href="#" class="teilen mobile">Teilen</a></li>
-				<li><a href="#" class="leseprobe phone">Leseprobe</a></li>
-				<li><a href="#" class="buch phone">Buch</a></li>
-				<li><a href="#" class="backFb phone">Zur&uuml;ck zu Facebook</a></li>
+			<p class="phoneSpec">ALTERNATIVE TEXT FOR PHONES Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.</p>
+			<ul class="navMenu bottomNav">
+				<li><a href="#" class="teilen mobileSpec">Teilen</a></li>
+				<li><a href="#" class="leseprobe phoneSpec">Leseprobe</a></li>
+				<li><a href="#" class="buch phoneSpec">Buch</a></li>
+				<li><a href="#" class="backFb phoneSpec">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>
 	</div><!-- container -->
