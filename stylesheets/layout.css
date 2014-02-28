@@ -40,6 +40,10 @@ body {
 	float: right;
 }
 
+.phone {
+	display: none;
+}
+
 .heading {
 }
 
@@ -47,6 +51,56 @@ body {
 ================================================== */
 
 /* BOOK PAGE */
+
+
+.book-page .secNav li {
+position: absolute;
+top: 45%;
+width: 150px;
+}
+
+.book-page .secNav li.left {
+left: 10%;
+}
+
+.book-page .secNav li.right {
+}
+
+
+.book-page .secNav li:nth-child(1) {
+}
+
+.book-page .secNav li:nth-child(2) {
+margin-top: 40px;
+}
+
+.book-page .secNav li:nth-child(3) {
+margin-top: 80px;
+}
+
+.book-page .secNav li:nth-child(4) {
+right: 10%;
+}
+
+.book-page .secNav li:nth-child(5) {
+right: 10%;
+margin-top: 40px;
+}
+
+.book-page .secNav li:nth-child(6) {
+right: 10%;
+margin-top: 80px;
+}
+
+.book-page .content {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.book-page .bookCover {
+margin-top: -10%;
+width: 40%;
+}
 
 .book-page .bottomNav {
 }
@@ -69,10 +123,84 @@ body {
 	@media only screen and (max-width: 767px) {}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+			.book-page .content {
+			margin-top: 10px;
+			}
+
+			.book-page .bookCover {
+			width: 100% !important;
+			margin-top: 0 !important;
+			}	
+
+			.book-page .secNav li {
+				position: relative;
+				margin: 0 !important;
+				padding: 0;
+				float: left;
+				left: 0 !important;
+				width: 100%;
+			}
+
+			.book-page .secNav li a:link,
+			.book-page .secNav li a:visited, 
+			.book-page .bottomNav li a:link,
+			.book-page .bottonNav li a:visited {
+			background: #e5e5e5;
+			display: block;
+			width: 90%;
+			margin-left: 5%;
+			margin-bottom: 10px;
+			padding: 5px 0px;
+			border-radius: 5px;
+			}
+
+			.book-page .bottomNav li {
+				background: none;
+			}
+
+			.phone {
+				display: none !important;
+			}
+
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+
+			.book-page .bottomNav li {
+				background: none;
+			}
+
+			.book-page .content {
+				margin-top: 50px;
+			}
+			
+			.book-page .bookCover {
+				width: 90%;
+				margin-left: 5%;
+			}
+
+			.book-page .bottomNav li a:link,
+			.book-page .bottonNav li a:visited {
+				background: #e5e5e5;
+				display: block;
+				width: 90%;
+				margin-left: 5%;
+				margin-bottom: 10px;
+				padding: 5px 0px;
+				border-radius: 5px;
+				}
+				
+			.mobile {
+				display: none !important;
+			}
+
+			.phone {
+				display: block;
+			}
+
+	}
 
 
 /* #Font-Face
