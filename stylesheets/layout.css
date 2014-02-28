@@ -23,10 +23,38 @@ body {
 
 .container {
 	background: #fff;
+	text-align: center;
+}
+
+.mainNav ul {
+	width: 100%;
+}
+
+.mainNav ul li,
+.bottomNav li {
+	float: left;
+	background: #e5e5e5;
+}
+.mainNav ul li:last-child,
+.bottomNav li:last-child {
+	float: right;
+}
+
+.heading {
 }
 
 /* #Page Styles
 ================================================== */
+
+/* BOOK PAGE */
+
+.book-page .bottomNav {
+}
+
+.book-page .bottomNav li {
+	float: none;
+}
+
 
 /* #Media Queries
 ================================================== */

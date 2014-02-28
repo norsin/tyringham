@@ -44,17 +44,17 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="container">
-		<nav class="mainNav">
+		<nav class="mainNav fourteen columns offset-by-one">
 			<ul>
-				<li><a href="index.php">Gewinnspiel</a></li>
-				<li><a href="book.php">Buch</a></li>
+				<li class="seven columns"><a href="index.php">Gewinnspiel</a></li>
+				<li class="seven columns"><a href="book.php">Buch</a></li>
 			</ul>
 		</nav>
 
-		<h1 class="heading heading1">Die Frauen von Tyringham Park</h1>
+		<h1 class="heading heading1 fourteen columns offset-by-one">Die Frauen von Tyringham Park</h1>
 
-		<div class="content">
-			<img src=""
+		<div class="content fourteen columns offset-by-one">
+			<img src="images/bookcover.png" alt="book cover" />
 			<ul class="secNav">
 				<li><a href="#" class="left">H&ouml;rprobe</a></li>		
 				<li><a href="#" class="left">Zum H&ouml;rbuch</a></li>		
