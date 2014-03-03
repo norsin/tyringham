@@ -20,12 +20,28 @@
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond);
 
 body {
-	background: #e5e5e5;
 	font-family: 'EB Garamond', serif !important;
+	color: #4d4d4d;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'EB Garamond', serif !important;
+	color: #a56c77;
+	letter-spacing: 1px;
+}
+
+p {
+	font-size: 1.35em;
+}
+
+.content .heading {
+	text-transform: uppercase;
+	font-size: 2.2em;
+}
+
+.highlight {
+	font-weight: bolder;
+	color: #a56c77;
 }
 
 .container {
@@ -98,7 +114,6 @@ left: 10%;
 
 .book-page .secNav li.right {
 }
-
 
 .book-page .secNav li:nth-child(1) {
 }
