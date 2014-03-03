@@ -46,8 +46,8 @@
 	<div class="container">
 		<nav class="mainNav fourteen columns offset-by-one desktop-content tablet-content">
 			<ul class="navMenu">
-				<li class="seven columns"><a href="index.php">Gewinnspiel</a></li>
-				<li class="seven columns"><a href="book.php">Buch</a></li>
+				<li class="seven columns gewinnspielBtn"><a href="index.php">Gewinnspiel</a></li>
+				<li class="seven columns buchBtn"><a href="book.php" class="active">Buch</a></li>
 			</ul>
 		</nav>
 

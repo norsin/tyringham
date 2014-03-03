@@ -39,9 +39,29 @@ h1,h2,h3,h4,h5,h6 {
 	width: 100%;
 }
 
-.navMenu li {
+.mainNav li {
 	float: left;
-	background: #e5e5e5;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited {
+	display: block;
+	height: 72px;
+	overflow: hidden;
+	line-height: 13em;
+}
+
+.mainNav li.gewinnspielBtn a {
+	background: url(../images/nav_gewinnspiel.png) center 0px no-repeat;
+}
+
+.mainNav li.buchBtn a {
+	background: url(../images/nav_buch.png) center 0px no-repeat;
+}
+
+.mainNav li a:hover,
+.mainNav li a.active {
+	background-position: center -89px;
 }
 
 .mainNav ul li:last-child {
@@ -50,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .tablet-content,
 .phone-content {
-	display: none;
+	display: none !important;
 }
 
 .desktop-content {
@@ -149,13 +169,36 @@ margin-left: 30%;
 				display: block !important;
 			}
 
+			.container {
+				min-height: 800px;
+				height: auto;
+			}
+
 			.navMenu li {
 				background: none;
+				width: 50% !important;
+			}
+
+			.mainNav li a:link,
+			.mainNav li a:visited {
+				height: 36px;
+			}
+
+			.mainNav li.buchBtn a {
+				background: url(../images/nav_buch_mobile.png) center 0px no-repeat;
+			}
+
+			.mainNav li.gewinnspielBtn a {
+				background: url(../images/nav_gewinnspiel_mobile.png) center 0px no-repeat;
+			}
+
+			.mainNav li a:hover,
+			.mainNav li a.active {
+					background-position: center -66px;
 			}
 
 			.navMenu li a:link,
 			.navMenu li a:visited {
-			background: #e5e5e5;
 			display: block;
 			width: 90%;
 			margin-left: 5%;
@@ -189,6 +232,18 @@ margin-left: 30%;
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
+			.container {
+				background: #f3e7d1; /* Old browsers */
+				background: -moz-linear-gradient(top,  #f3e7d1 0%, #eeebe1 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e7d1), color-stop(100%,#eeebe1)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #f3e7d1 0%,#eeebe1 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e7d1', endColorstr='#eeebe1',GradientType=0 ); /* IE6-9 */
+				height: auto;
+			}	
+
 			.desktop-content,
 		        .tablet-content	{
 				display: none !important;
@@ -199,6 +254,11 @@ margin-left: 30%;
 			}
 			.navMenu li {
 				background: none;
+			}
+
+			.navMenu.phone-content {
+				margin-top: 20px;
+				float: left;
 			}
 
 			.book-page .content {
@@ -212,7 +272,10 @@ margin-left: 30%;
 
 			.navMenu li a:link,
 			.book-page .bottonNav li a:visited {
-				background: #e5e5e5;
+				background: #fff;
+				text-decoration: none;
+				font-variant: small-caps;
+				font-size: 1.2em;
 				display: block;
 				width: 90%;
 				margin-left: 5%;

@@ -44,13 +44,19 @@
 	<!-- Delete everything in this .container and get started on your own site! -->
 
 	<div class="container">
-		<nav class="mainNav fourteen columns offset-by-one">
-			<ul>
-				<li class="seven columns"><a href="index.php">Gewinnspiel</a></li>
-				<li class="seven columns"><a href="book.php">Buch</a></li>
+		<nav class="mainNav fourteen columns offset-by-one desktop-content tablet-content">
+			<ul class="navMenu">
+				<li class="seven columns gewinnspielBtn"><a href="index.php" class="active">Gewinnspiel</a></li>
+				<li class="seven columns buchBtn"><a href="book.php">Buch</a></li>
 			</ul>
 		</nav>
+
 		<h1 class="heading heading1 fourteen columns offset-by-one">Leidenschaft und Intrigen auf Tyringham Park</h1>
+
+		<ul class="navMenu phone-content">
+			<li class="seven columns"><a href="book.php">Mehr zum Roman</a></li>
+		</ul>
+
 		<div class="introText fourteen columns offset-by-one">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			<p>Aliquam aliquet nec ligula et volutpat. Sed ornare lorem et nisl gravida, eu aliquet metus bibendum. Mauris mollis nibh a quam bibendum tincidunt.</p>
@@ -60,9 +66,10 @@
 			<p>Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.</p>
 			<p class="highlight">Nullam sit amet sapien est. Donec tincidunt ornare velit?</p>
 			<p>Sed venenatis laoreet arcu, porta posuere ipsum fringilla a. Duis vestibulum non libero eu pharetra. Pellentesque adipiscing, ipsum at accumsan aliquam.</p>
-			<ul class="bottomNav">
-				<li class="six columns"><a href="#">Mitmachen</a></li>
-				<li class="six columns"><a href="#">Teilen</a></li>
+			<ul class="navMenu bottomNav">
+				<li class="mitmachen six columns"><a href="#">Mitmachen</a></li>
+				<li class="teilen six columns desktop-content"><a href="#">Teilen</a></li>
+				<li class="backToFB six columns tablet-content phone-content"><a href="#">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>
 	</div><!-- container -->
