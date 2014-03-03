@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
 	font-size: 1.35em;
+	line-height: 1.5em;
 }
 
 .content .heading {
@@ -93,7 +94,13 @@ p {
 	display: block !important;
 }
 
-.heading {
+.heading1 {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.introText {
+	margin-bottom: 40px;
 }
 
 /* #Page Styles
@@ -220,6 +227,10 @@ margin-left: 30%;
 				height: auto;
 			}
 
+			.heading1 {
+				margin-bottom: 30px !important;
+			}
+
 			.navMenu li {
 				background: none;
 				width: 50% !important;
@@ -253,17 +264,22 @@ margin-left: 30%;
 			border-radius: 5px;
 			}
 
+			.introtext {
+				width: 90% !important;
+				margin: 40px 5% !important;	
+			}
+
 			.book-page .content {
 			margin-top: 10px;
 			}
 
-			.book-page .bookCover {
+			.book-page .bookcover {
 			width: 100% !important;
 			margin-top: 0 !important;
 			margin-left: 0;
 			}	
 
-			.book-page .secNav li {
+			.book-page .secnav li {
 				position: relative;
 				margin: 0 !important;
 				padding: 0;
@@ -275,18 +291,18 @@ margin-left: 30%;
 
 	}
 
-	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	/* mobile portrait size to mobile landscape size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 
 			.container {
-				background: #f3e7d1; /* Old browsers */
-				background: -moz-linear-gradient(top,  #f3e7d1 0%, #eeebe1 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e7d1), color-stop(100%,#eeebe1)); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* IE10+ */
-				background: linear-gradient(to bottom,  #f3e7d1 0%,#eeebe1 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e7d1', endColorstr='#eeebe1',GradientType=0 ); /* IE6-9 */
+				background: #f3e7d1; /* old browsers */
+				background: -moz-linear-gradient(top,  #f3e7d1 0%, #eeebe1 100%); /* ff3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3e7d1), color-stop(100%,#eeebe1)); /* chrome,safari4+ */
+				background: -webkit-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* chrome10+,safari5.1+ */
+				background: -o-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* opera 11.10+ */
+				background: -ms-linear-gradient(top,  #f3e7d1 0%,#eeebe1 100%); /* ie10+ */
+				background: linear-gradient(to bottom,  #f3e7d1 0%,#eeebe1 100%); /* w3c */
+				filter: progid:dximagetransform.microsoft.gradient( startcolorstr='#f3e7d1', endcolorstr='#eeebe1',gradienttype=0 ); /* ie6-9 */
 				height: auto;
 			}	
 
@@ -298,16 +314,22 @@ margin-left: 30%;
 			.phone-content {
 				display: block !important;
 			}
+			
+			.heading1 {
+				margin-bottom: 15px !important;
+			}
 
 			.content {
 				background: none !important;
+				padding-top: 0px !important;
+				height: auto !important;
 			}
 
-			.navMenu li {
+			.navmenu li {
 				background: none;
 			}
 
-			.navMenu.phone-content {
+			.navmenu.phone-content {
 				margin-top: 20px;
 				float: left;
 			}
@@ -316,9 +338,15 @@ margin-left: 30%;
 				margin-top: 50px;
 			}
 			
-			.book-page .bookCover {
+			.book-page .bookcover {
 				width: 90%;
 				margin-left: 5%;
+			}
+
+			.navMenu.bottomNav {
+				float: left;
+				padding: 0;
+				width: 100%;
 			}
 
 			.navMenu li a:link,

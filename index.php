@@ -51,13 +51,14 @@
 			</ul>
 		</nav>
 
-		<h1 class="heading heading1 fourteen columns offset-by-one">Leidenschaft und Intrigen auf Tyringham Park</h1>
+		<h1 class="heading heading1 fourteen columns offset-by-one desktop-content tablet-content">Leidenschaft und Intrigen auf Tyringham Park</h1>
+		<h1 class="heading heading1 fourteen columns offset-by-one phone-content">Die Frauen von Tyringham Park</h1>
 
 		<ul class="navMenu phone-content">
 			<li class="seven columns"><a href="book.php">Mehr zum Roman</a></li>
 		</ul>
 
-		<div class="introText fourteen columns offset-by-one">
+		<div class="introText fourteen columns offset-by-one desktop-content tablet-content">
 			<p>Wer Downton Abbey mag, wird diesen Roman lieben!</p>
 			<p>Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw &ndash; ein Ort voller Prunk und Privilegien. Doch ein verh&auml;ngnisvolles Ereignis im Jahr 1917 zerst&ouml;rt den Frieden des Hauses.</p>
 		</div>
