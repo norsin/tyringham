@@ -29,7 +29,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container {
-	background: #fff;
+	background: url(../images/background.jpg) 0px 0px no-repeat;
+	height: 1100px;
 	text-align: center;
 	padding-top: 15px;
 }
