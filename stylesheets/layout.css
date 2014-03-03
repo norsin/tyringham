@@ -99,6 +99,19 @@ p {
 /* #Page Styles
 ================================================== */
 
+/* GAME (home) PAGE */
+
+.home-page .content {
+	background:  url(../images/background_text_gewinnspiel.png) 88% top no-repeat;
+	padding-top: 30px;
+	height: 500px
+}
+
+.home-page .content > * {
+	width: 80%;
+	padding: 0 10%;
+}
+
 /* BOOK PAGE */
 
 
@@ -165,8 +178,26 @@ margin-left: 30%;
 	/* Smaller than standard 960 (devices and browsers) */
 	@media only screen and (max-width: 959px) {}
 
+	/* Tablet Portrait size to 785px (project related fix) */
+	@media only screen and (min-width: 767px) and (max-width: 785px) {
+		.container {
+			width: 100%;
+		}
+	}
+
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		.home-page .content {
+			background: url(../images/background_text_gewinnspiel.png) 50% top no-repeat;	
+			margin-left: 4.5%;
+		}
+
+		.home-page .content > * {
+			margin-left: -3.7% !important;
+		}
+
+	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {}
@@ -267,6 +298,11 @@ margin-left: 30%;
 			.phone-content {
 				display: block !important;
 			}
+
+			.content {
+				background: none !important;
+			}
+
 			.navMenu li {
 				background: none;
 			}
