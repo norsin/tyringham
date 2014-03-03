@@ -119,6 +119,31 @@ p {
 	padding: 0 10%;
 }
 
+.navMenu.bottomNav {
+	margin-top: 90px;
+}
+
+.navMenu.bottomNav .teilen {
+	float: right;
+}
+
+.navMenu.bottomNav li a:link, 
+.navMenu.bottomNav li a:visited {
+	display: block;
+	width: 100%;
+	height: 55px;
+	overflow: hidden;
+	line-height: 13em;
+}
+
+.navMenu.bottomNav .mitmachen a {
+	background: url(../images/button_mitmachen.png) 50% top no-repeat;
+}
+
+.navMenu.bottomNav .teilen a {
+	background: url(../images/button_share.png) 50% top no-repeat;
+}
+
 /* BOOK PAGE */
 
 
@@ -288,6 +313,25 @@ margin-left: 30%;
 				width: 100%;
 			}
 
+			.navMenu.bottomNav {
+				margin-top: 0px;
+			}
+
+			.navMenu.bottomNav li a:link, 
+			.navMenu.bottomNav li a:visited {
+				height: auto;
+				line-height: 1em;
+				background: #fff;
+				text-decoration: none;
+				font-variant: small-caps;
+				font-size: 1.2em;
+				display: block;
+				width: 90%;
+				margin-left: 5%;
+				margin-bottom: 10px;
+				padding: 5px 0px;
+				border-radius: 5px;
+			}
 
 	}
 
@@ -347,6 +391,23 @@ margin-left: 30%;
 				float: left;
 				padding: 0;
 				width: 100%;
+			}
+
+
+			.navMenu.bottomNav li a:link, 
+			.navMenu.bottomNav li a:visited {
+				height: auto;
+				line-height: 1em;
+				background: #fff;
+				text-decoration: none;
+				font-variant: small-caps;
+				font-size: 1.2em;
+				display: block;
+				width: 90%;
+				margin-left: 5%;
+				margin-bottom: 10px;
+				padding: 5px 0px;
+				border-radius: 5px;
 			}
 
 			.navMenu li a:link,
