@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
+	<title>Die Frauen von Tyringham Park</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -58,18 +58,21 @@
 		</ul>
 
 		<div class="introText fourteen columns offset-by-one">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			<p>Aliquam aliquet nec ligula et volutpat. Sed ornare lorem et nisl gravida, eu aliquet metus bibendum. Mauris mollis nibh a quam bibendum tincidunt.</p>
+			<p>Wer Downton Abbey mag, wird diesen Roman lieben!</p>
+			<p>Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw &ndash; ein Ort voller Prunk und Privilegien. Doch ein verh&auml;ngnisvolles Ereignis im Jahr 1917 zerst&ouml;rt den Frieden des Hauses.</p>
 		</div>
 		<div class="content fourteen columns offset-by-one">
 			<h2 class="heading heading2">Gewinnspiel</h2>
-			<p>Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.</p>
-			<p class="highlight">Nullam sit amet sapien est. Donec tincidunt ornare velit?</p>
-			<p>Sed venenatis laoreet arcu, porta posuere ipsum fringilla a. Duis vestibulum non libero eu pharetra. Pellentesque adipiscing, ipsum at accumsan aliquam.</p>
+			<p>In unserem Gewinnspiel verlosen wir je 5 Exemplare des Buches und des H&oumlrbuches von &raquo;Die Frauen von Tyringham Park&laquo;. Dafür möchten wir von euch wissen:</p>
+			<p class="highlight">Wie hei&szlig;t die j&uuml;gste Tochter von Lord und Lady Blackshaw?</p>
+			<p>Schickt uns die richtige L&ouml;sung per E-Mail und dem Betreff &raquo;Tyringham Park&laquo; bis zum 13.04.2014 an facebook@luebbe.de. Bitte gebt euren Namen und eure Postadresse an.</p>
+
+			<p class="phone-content">Schickt uns die richtige L&ouml;sung per E-Mail und dem Betreff &raquo;Tyringham Park&laquo; bis zum 13.04.2014 an gewinnspiel@luebbe.de. Bitte gebt euren Namen und eure Postadresse an.</p>
+			
 			<ul class="navMenu bottomNav">
 				<li class="mitmachen six columns"><a href="#">Mitmachen</a></li>
 				<li class="teilen six columns desktop-content"><a href="#">Teilen</a></li>
-				<li class="backToFB six columns tablet-content phone-content"><a href="#">Zur&uuml;ck zu Facebook</a></li>
+				<li class="backToFB six columns tablet-content phone-content"><a href="http://www.facebook.com/BasteiLuebbe">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>
 	</div><!-- container -->

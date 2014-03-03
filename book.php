@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>Your Page Title Here :)</title>
+	<title>Die Frauen von Tyringham Park</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -54,7 +54,7 @@
 		<h1 class="heading heading1 fourteen columns offset-by-one">Die Frauen von Tyringham Park</h1>
 		
 		<ul class="navMenu phone-content">
-			<li class="seven columns"><a href="index.php">Gewinnspiel</a></li>
+			<li class="seven columns"><a href="index.php">Zum Gewinnspiel</a></li>
 		</ul>
 
 		<div class="content fourteen columns offset-by-one">
@@ -68,9 +68,8 @@
 				<li class="buch right"><a href="#">Zum Buch</a></li>		
 				<li class="e-book right"><a href="#">Auch als E-Book</a></li>		
 			</ul>
-			<p class="desktop-content tablet-content">Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.<br />
-			Sed venenatis laoreet arcu, porta posuere ipsum fringilla a. Duis vestibulum non libero eu pharetra. Pellentesque adipiscing, ipsum at accumsan aliquam.</p>
-			<p class="phone-content">ALTERNATIVE TEXT FOR PHONES Aenean rhoncus, elit sed ultrices tempor, nisl nisl rhoncus sapien, a luctus turpis ante sed urna.</p>
+			<p class="desktop-content tablet-content">Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw. Tyringham Parkt ist ein Ort voller Wohlstand, Prunk und Privilegien. Erst ein verh&auml;ngnisvolles Ereignis im Jahr 1917 f&ouml;rdert das im Verborgenen brodelnde Chaos von Eifersucht, Intrigen und Betrug zutage: Victoria, die j&uuml;ngste Tochter der Familie, verschwindet spurlos &ndash; und mit ihr der Frieden von Tyringham Park und seiner Bewohner ...</p>
+			<p class="phone-content">Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw &ndash; ein Ort voller Wohlstand, Prunk und Privilegien. Erst ein verh&auml;ngnisvolles Ereignis im Jahr 1917 f&ouml;rdert das im Verborgenen brodelnde Chaos von Eifersucht, Intrigen und Betrug zutage: Victoria, die j&uuml;ngste Tochter der Familie, verschwindet spurlos ...</p>
 			<ul class="navMenu bottomNav">
 				<li><a href="#" class="teilen desktop-content tablet-content">Teilen</a></li>
 				<li><a href="#" class="leseprobe phone-content">Leseprobe</a></li>
