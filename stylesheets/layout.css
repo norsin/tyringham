@@ -123,8 +123,8 @@ p {
 	margin-top: 90px;
 }
 
-.navMenu.bottomNav .teilen {
-	float: right;
+.navMenu.bottomNav li.teilen {
+	float: right !important;
 }
 
 .navMenu.bottomNav li a:link, 
@@ -146,54 +146,77 @@ p {
 
 /* BOOK PAGE */
 
-
 .book-page .secNav li {
-position: absolute;
-top: 45%;
-width: 150px;
+	position: absolute;
+	top: 33%;
+	width: 170px;
+}
+
+.book-page .secNav li a:link,
+.book-page .secNav li a:visited {
+	display: block;
+	width: 100%;
+	height: 85px;	
+	overflow: hidden;
+	line-height: 13em;
 }
 
 .book-page .secNav li.left {
-left: 10%;
+	left: 15%;
 }
 
 .book-page .secNav li.right {
+	right: 15%;
 }
 
-.book-page .secNav li:nth-child(1) {
-}
-
-.book-page .secNav li:nth-child(2) {
-margin-top: 40px;
-}
-
-.book-page .secNav li:nth-child(3) {
-margin-top: 80px;
-}
-
-.book-page .secNav li:nth-child(4) {
-right: 10%;
-}
-
+.book-page .secNav li:nth-child(2),
 .book-page .secNav li:nth-child(5) {
-right: 10%;
-margin-top: 40px;
+	margin-top: 10%;
 }
 
+.book-page .secNav li:nth-child(3),
 .book-page .secNav li:nth-child(6) {
-right: 10%;
-margin-top: 80px;
+	margin-top: 22%;
+}
+
+.book-page .secNav li.hoerprobe a {
+	background: url(../images/button_hoerprobe.png) 50% 50% no-repeat;
+}
+.book-page .secNav li.hoerbuch a {
+	background: url(../images/button_hoerbuch.png) 50% 50% no-repeat;
+}
+.book-page .secNav li.download-hoerbuch a {
+	background: url(../images/button_download.png) 50% 50% no-repeat;
+}
+.book-page .secNav li.leseprobe a {
+	background: url(../images/button_leseprobe.png) 50% 50% no-repeat;
+}
+.book-page .secNav li.buch a {
+	background: url(../images/button_buch.png) 50% 50% no-repeat;
+}
+.book-page .secNav li.e-book a {
+	background: url(../images/button_ebook.png) 50% 50% no-repeat;
 }
 
 .book-page .content {
+	background: url(../images/background_text.png) 88% 0px no-repeat;
 	margin-top: 100px;
+	height: 715px;
 	margin-bottom: 20px;
+}
+
+.book-page .content .mainText {
+	width: 80%;
+	padding: 0 10%;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .book-page .bookCover {
 margin-top: -10%;
 width: 40%;
-margin-left: 30%;
+margin-left: 33%;
 }
 
 .book-page .bottomNav {
@@ -202,7 +225,10 @@ margin-left: 30%;
 .book-page .bottomNav li {
 	float: none;
 }
-
+.book-page .bottomNav li.teilen a {
+	display: block;
+	background: url(../images/button_share.png) 50% top no-repeat;
+}
 
 /* #Media Queries
 ================================================== */
@@ -221,12 +247,15 @@ margin-left: 30%;
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 
 		.home-page .content {
-			background: url(../images/background_text_gewinnspiel.png) 50% top no-repeat;	
-			margin-left: 4.5%;
+			margin-left: 4%;
 		}
 
 		.home-page .content > * {
 			margin-left: -3.7% !important;
+		}
+
+		.book-page .content {
+			margin-left: 4%;
 		}
 
 	}
@@ -259,6 +288,10 @@ margin-left: 30%;
 			.navMenu li {
 				background: none;
 				width: 50% !important;
+			}
+			
+			.book-page .navMenu li {
+				width: 100%;
 			}
 
 			.mainNav li a:link,
@@ -298,20 +331,14 @@ margin-left: 30%;
 			margin-top: 10px;
 			}
 
-			.book-page .bookcover {
-			width: 100% !important;
-			margin-top: 0 !important;
-			margin-left: 0;
+			.book-page .bookCover {
+				margin-top: 25px !important;
 			}	
 
-			.book-page .secnav li {
-				position: relative;
-				margin: 0 !important;
-				padding: 0;
-				float: left;
-				left: 0 !important;
-				width: 100%;
+			.book-page .secNav {
+				display: none !important;
 			}
+
 
 			.navMenu.bottomNav {
 				margin-top: 0px;
@@ -331,6 +358,10 @@ margin-left: 30%;
 				margin-bottom: 10px;
 				padding: 5px 0px;
 				border-radius: 5px;
+			}
+
+			.navMenu.bottomNav li.teilen {
+				width: 100% !important;
 			}
 
 	}

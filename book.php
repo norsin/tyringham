@@ -68,13 +68,13 @@
 				<li class="buch right"><a href="#">Zum Buch</a></li>		
 				<li class="e-book right"><a href="#">Auch als E-Book</a></li>		
 			</ul>
-			<p class="desktop-content tablet-content">Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw. Tyringham Parkt ist ein Ort voller Wohlstand, Prunk und Privilegien. Erst ein verh&auml;ngnisvolles Ereignis im Jahr 1917 f&ouml;rdert das im Verborgenen brodelnde Chaos von Eifersucht, Intrigen und Betrug zutage: Victoria, die j&uuml;ngste Tochter der Familie, verschwindet spurlos &ndash; und mit ihr der Frieden von Tyringham Park und seiner Bewohner ...</p>
-			<p class="phone-content">Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw &ndash; ein Ort voller Wohlstand, Prunk und Privilegien. Erst ein verh&auml;ngnisvolles Ereignis im Jahr 1917 f&ouml;rdert das im Verborgenen brodelnde Chaos von Eifersucht, Intrigen und Betrug zutage: Victoria, die j&uuml;ngste Tochter der Familie, verschwindet spurlos ...</p>
+			<p class="desktop-content tablet-content mainText">Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw. Tyringham Parkt ist ein Ort voller Wohlstand, Prunk und Privilegien. Erst ein verh&auml;ngnisvolles Ereignis im Jahr 1917 f&ouml;rdert das im Verborgenen brodelnde Chaos von Eifersucht, Intrigen und Betrug zutage: Victoria, die j&uuml;ngste Tochter der Familie, verschwindet spurlos &ndash; und mit ihr der Frieden von Tyringham Park und seiner Bewohner ...</p>
+			<p class="phone-content mainText">Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw &ndash; ein Ort voller Wohlstand, Prunk und Privilegien. Erst ein verh&auml;ngnisvolles Ereignis im Jahr 1917 f&ouml;rdert das im Verborgenen brodelnde Chaos von Eifersucht, Intrigen und Betrug zutage: Victoria, die j&uuml;ngste Tochter der Familie, verschwindet spurlos ...</p>
 			<ul class="navMenu bottomNav">
-				<li><a href="#" class="teilen desktop-content tablet-content">Teilen</a></li>
-				<li><a href="#" class="leseprobe phone-content">Leseprobe</a></li>
-				<li><a href="#" class="buch phone-content">Buch</a></li>
-				<li><a href="#" class="backFb phone-content">Zur&uuml;ck zu Facebook</a></li>
+				<li class="teilen desktop-content tablet-content"><a href="#">Teilen</a></li>
+				<li class="leseprobe phone-content"><a href="#">Leseprobe</a></li>
+				<li class="buch phone-content"><a href="#">Buch</a></li>
+				<li class="backFb phone-content"><a href="#">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>
 	</div><!-- container -->
