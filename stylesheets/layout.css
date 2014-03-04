@@ -258,6 +258,28 @@ margin-left: 33%;
 			margin-left: 4%;
 		}
 
+		.book-page .bookCover {
+			margin-left: 30%;
+		}
+
+		.book-page .secNav li.left {
+			left: 12%;
+		}
+
+		.book-page .secNav li.right {
+			right: 12%;
+		}
+
+		.book-page .content .mainText {
+			width: 90%;
+			padding: 0 5%;
+			margin-left: -3%;
+		}
+
+		.book-page .bottomNav {
+			margin-left: -4%;
+		}
+
 	}
 
 	/* All Mobile Sizes (devices and browser) */
