@@ -31,7 +31,7 @@
 			<img src="images/bookcover.png" alt="book cover" class="bookCover desktop-content"/>
 			<img src="images/bookcover_mobile.png" alt="book cover" class="bookCover tablet-content phone-content"/>
 			<ul class="navMenu secNav desktop-content tablet-content">
-				<li class="hoerprobe left"><a href="#">H&ouml;rprobe</a></li>		
+				<li class="hoerprobe left"><a href="https://soundcloud.com/luebbe-audio/rosemary-mcloughlin-die-frauen">H&ouml;rprobe</a></li>		
 				<li class="hoerbuch left"><a href="#">Zum H&ouml;rbuch</a></li>		
 				<li class="download-hoerbuch left"><a href="#">Auch als H&ouml;rbuch-download</a></li>		
 				<li class="leseprobe right"><a href="#">Leseprobe</a></li>		
