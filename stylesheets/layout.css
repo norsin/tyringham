@@ -405,6 +405,7 @@ margin-left: 33%;
 
 			.navMenu.bottomNav {
 				margin-top: 0px;
+				padding: 0;
 			}
 
 			.navMenu.bottomNav li a:link, 
