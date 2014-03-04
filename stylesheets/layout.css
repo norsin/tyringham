@@ -45,6 +45,12 @@ p {
 	color: #a56c77;
 }
 
+.container.fangate {
+	background: url(../images/fangate.jpg) 0px 0px no-repeat;
+	height: 1100px;
+	width: 808px;
+}
+
 .container {
 	background: url(../images/background.jpg) 0px 0px no-repeat;
 	height: 1100px;
