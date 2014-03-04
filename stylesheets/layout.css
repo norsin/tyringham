@@ -280,7 +280,7 @@ margin-left: 33%;
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to 785px (project related fix) */
-	@media only screen and (min-width: 767px) and (max-width: 785px) {
+	@media only screen and (min-width: 768px) and (max-width: 785px) {
 		.container {
 			width: 100%;
 		}
