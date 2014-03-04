@@ -113,8 +113,8 @@ p {
 
 #teilnahmebox {
 	position: absolute;
-	width: 90%;
-	left: 5%;
+	width: 94%;
+	left: 3%;
 	top: 10px;
 	border-radius: 10px;
 	opacity: 0.9;
@@ -140,6 +140,7 @@ p {
 	padding: 5px 10px;
 	border-radius: 3px;
 	font-weight: bolder;
+	cursor: pointer;
 }
 
 /* #Page Styles

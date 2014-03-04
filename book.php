@@ -47,6 +47,7 @@
 				<li class="backFb phone-content tablet-content"><a href="#">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>
+		<?php include "teilnahmebox.php"; ?>
 	</div><!-- container -->
 	<?php include "impressum.php"; ?>
 

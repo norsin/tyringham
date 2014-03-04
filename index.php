@@ -46,6 +46,7 @@
 				<li class="backToFB six columns tablet-content phone-content"><a href="http://www.facebook.com/BasteiLuebbe">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>
+		<?php include "teilnahmebox.php"; ?>
 	</div><!-- container -->
 	<?php include "impressum.php"; ?>
 <!-- End Document
