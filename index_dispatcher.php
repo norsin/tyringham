@@ -1,3 +1,8 @@
+<?php
+	//Get PHP SDK
+	require_once 'facebook.php';
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
@@ -6,7 +11,29 @@
 <?php include "head.php" ?>
 <body class="home-page">
 
+        <script type="text/javascript">
+            if (top == self) 
+            { 
+                top.location = "https://www.facebook.com/pages/bilandia-Test/318672431558398?id=318672431558398&sk=app_251639345009802";
+            }
+        </script>
 
+
+        <div id="fb-root"></div>
+        <script type="text/javascript">
+            window.fbAsyncInit = function() {
+                //Your app details here
+                FB.init({appId: '251639345009802', status: true, cookie: true, xfbml: true});
+            };
+
+            //Load the SDK asynchronously
+            (function() {
+                var e = document.createElement('script'); e.async = true;
+                e.src = document.location.protocol +
+                  '//connect.facebook.net/en_US/all.js';
+                document.getElementById('fb-root').appendChild(e);
+            }());
+        </script>
 
 	<!-- Primary Page Layout
 	================================================== -->
@@ -47,6 +74,11 @@
 			</ul>
 		</div>
 		<?php include "teilnahmebox.php"; ?>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				FB.Canvas.setAutoGrow();
+			})
+		</script>
 	</div><!-- container -->
 	<?php include "impressum.php"; ?>
 <!-- End Document

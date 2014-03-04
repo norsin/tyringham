@@ -17,7 +17,7 @@
 /* #Site Styles
 ================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
 
 body {
 	font-family: 'EB Garamond', serif !important;
@@ -43,6 +43,12 @@ p {
 .highlight {
 	font-weight: bolder;
 	color: #a56c77;
+}
+
+.container.fangate {
+	background: url(../images/fangate.jpg) 0px 0px no-repeat;
+	height: 1100px;
+	width: 808px;
 }
 
 .container {
@@ -113,8 +119,8 @@ p {
 
 #teilnahmebox {
 	position: absolute;
-	width: 90%;
-	left: 5%;
+	width: 94%;
+	left: 3%;
 	top: 10px;
 	border-radius: 10px;
 	opacity: 0.9;
@@ -140,6 +146,7 @@ p {
 	padding: 5px 10px;
 	border-radius: 3px;
 	font-weight: bolder;
+	cursor: pointer;
 }
 
 /* #Page Styles
@@ -279,7 +286,7 @@ margin-left: 33%;
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to 785px (project related fix) */
-	@media only screen and (min-width: 767px) and (max-width: 785px) {
+	@media only screen and (min-width: 768px) and (max-width: 785px) {
 		.container {
 			width: 100%;
 		}
@@ -348,7 +355,7 @@ margin-left: 33%;
 				margin-bottom: 30px !important;
 			}
 
-			.navMenu li {
+			.mainNav .navMenu li {
 				background: none;
 				width: 50% !important;
 			}
@@ -405,6 +412,7 @@ margin-left: 33%;
 
 			.navMenu.bottomNav {
 				margin-top: 0px;
+				padding: 0;
 			}
 
 			.navMenu.bottomNav li a:link, 
