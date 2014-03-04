@@ -64,10 +64,16 @@
 	$('.teilnahmeLink').click(function(e) {
 		e.preventDefault();
 	    	$('#teilnahmebox').show('clip');
+		$('html,body').animate({
+			scrollTop: 0
+		}, 300);
 	});
 
 	$('.close').click(function() {
-	    $('#teilnahmebox').hide('clip');
+		$('#teilnahmebox').hide('clip');
+		$('html,body').animate({
+			scrollTop: 0
+		}, 300);
 	});
 
 </script>
