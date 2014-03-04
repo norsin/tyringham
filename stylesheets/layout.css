@@ -103,6 +103,45 @@ p {
 	margin-bottom: 40px;
 }
 
+.container.impressum {
+	background: none;
+	height: auto;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#teilnahmebox {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 10px;
+	border-radius: 10px;
+	opacity: 0.9;
+	color: white;
+	display: none;
+	background: black;
+	height: auto;
+	text-align: left;
+	font-size: 0.9em;
+	z-index: 300;
+}
+
+#teilnahmebox > * {
+	width: 94%;
+	margin: 10px 3%;
+}
+
+#teilnahmebox .close {
+	background: #fff;
+	color: #000;
+	width: auto;
+	float: right;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-weight: bolder;
+}
+
 /* #Page Styles
 ================================================== */
 
