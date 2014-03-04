@@ -9,7 +9,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <?php include "head.php" ?>
-<body class="home-page">
+<body class="home-page dispatcher">
 
         <script type="text/javascript">
             if (top == self) 
@@ -75,9 +75,9 @@
 		</div>
 		<?php include "teilnahmebox.php"; ?>
 		<script type="text/javascript">
-			$(document).ready(function(){
+			window.onload = function() {
 				FB.Canvas.setAutoGrow();
-			})
+			}
 		</script>
 	</div><!-- container -->
 	<?php include "impressum.php"; ?>
