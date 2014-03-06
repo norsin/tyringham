@@ -42,7 +42,7 @@
 			
 			<ul class="navMenu bottomNav">
 				<li class="mitmachen six columns"><a href="#">Mitmachen</a></li>
-				<li class="teilen six columns desktop-content"><a href="#">Teilen</a></li>
+				<li class="teilen six columns desktop-content"><a href="https://www.facebook.com/sharer/sharer.php?u=https://f-bilandia.de/luebbe/tyringham/weiche.php" target="_blank">Teilen</a></li>
 				<li class="backToFB six columns tablet-content phone-content"><a href="http://www.facebook.com/BasteiLuebbe">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>

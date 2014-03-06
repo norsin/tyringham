@@ -8,6 +8,23 @@
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+        <title>Die Frauen von Tyringham Park</title>
+        <link rel="image_src" href="img/share.jpg">
+        <meta property="og:image" content="http://f-bilandia.de/luebbe/tyringham/images/share.jpg"/>
+        <meta property="og:image:secure_url" content="https://f-bilandia.de/luebbe/tyringham/images/share.jpg">
+        <meta property="og:image:type" content="image/jpg">
+        <meta property="og:image:width" content="200">
+        <meta property="og:image:height" content="200">
+        <meta property="og:title" content="Die Frauen von Tyringham Park"/>
+        <meta property="og:description" content="Für alle Fans von Downton Abbey: Jetzt Fan werden und die mitreißende Familiensaga Tyringham Park als Buch oder Hörbuch gewinnen!" />
+        <meta property="og:url" content="http://f-bilandia.de/luebbe/tyringham/weiche.php"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+
 <?php include "head.php" ?>
 <body class="home-page dispatcher">
 
@@ -69,7 +86,7 @@
 			
 			<ul class="navMenu bottomNav">
 				<li class="mitmachen six columns"><a href="#">Mitmachen</a></li>
-				<li class="teilen six columns desktop-content"><a href="#">Teilen</a></li>
+				<li class="teilen six columns desktop-content"><a href="https://www.facebook.com/sharer/sharer.php?u=https://f-bilandia.de/luebbe/tyringham/weiche.php" target="_blank">Teilen</a></li>
 				<li class="backToFB six columns tablet-content phone-content"><a href="http://www.facebook.com/BasteiLuebbe">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
 		</div>
