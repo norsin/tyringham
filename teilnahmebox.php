@@ -5,7 +5,7 @@
 	Voraussetzung für die Teilnahme am Gewinnspiel
 	</u>
 	<br /><br />
-	Voraussetzung für die Teilnahme am Gewinnspiel ist das Klicken auf den „Gefällt mir“-Button der Bastei Lübbe- oder Lübbe Audio-Facebook-Seite sowie eine E-Mail mit der richtigen Lösung an <span class="desktop-content">facebook@luebbe.de</span><span class="tablet-content phone-content">gewinnspiel@luebbe.de</span>. Ausgeschlossen von der Teilnahme sind Mitarbeiter und Agenturen der Bastei Lübbe AG, sowie angeschlossener Unternehmen und deren Angehörige.
+	Voraussetzung für die Teilnahme am Gewinnspiel ist das Klicken auf den „Gefällt mir“-Button der Bastei Lübbe- oder Lübbe Audio-Facebook-Seite sowie eine E-Mail mit der richtigen Lösung an <span class="desktop-content">facebook@luebbe.de.</span><span class="tablet-content phone-content">gewinnspiel@luebbe.de.</span> Ausgeschlossen von der Teilnahme sind Mitarbeiter und Agenturen der Bastei Lübbe AG, sowie angeschlossener Unternehmen und deren Angehörige.
 	<br />
 	Die Teilnahme ist nur natürlichen Personen gestattet. Eine Sammelteilnahme (insbesondere unter Einbeziehung hierauf ausgerichteter Unternehmen) ist ausdrücklich ausgeschlossen. Teilnehmer müssen persönlich mitspielen und dürfen sich keinerlei technischer Hilfsmittel bedienen. Besteht der Verdacht, dass doch Hilfsprogramme o. ä. benutzt worden sind, behält sich der Verlag vor, die Mitspieler von der Teilnahme auszuschließen.</p>
 	<p>
