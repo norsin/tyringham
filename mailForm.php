@@ -174,7 +174,7 @@ function get_data($var) {
     
     <form class="registerForm" <?php if (isset($disable) && $disable === true) echo ' style="display: none;"'; ?> method="post" action="<?php echo $_SERVER['PHP_SELF'] ;?>">
         <div class="textBlock">
-            <p>Schickt uns die richtige L&ouml;sung &uuml;ber das Kontaktformular oder per E-Mail und dem Betreff &raquo;Tyringham Park&laquo; bis zum 13.04.2014 an facebook@luebbe.de.</p>
+            <p>Schickt uns die richtige L&ouml;sung &uuml;ber das Kontaktformular oder per E-Mail bis zum 13.04.2014 an facebook@luebbe.de.</p>
         </div>
 
 
