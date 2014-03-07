@@ -42,7 +42,7 @@
 			<p class="phone-content mainText">Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw &ndash; ein Ort voller Wohlstand, Prunk und Privilegien. Erst ein verh&auml;ngnisvolles Ereignis im Jahr 1917 f&ouml;rdert das im Verborgenen brodelnde Chaos von Eifersucht, Intrigen und Betrug zutage: Victoria, die j&uuml;ngste Tochter der Familie, verschwindet spurlos ...</p>
 			<ul class="navMenu bottomNav">
 				<li class="teilen desktop-content"><a href="https://www.facebook.com/sharer/sharer.php?u=https://f-bilandia.de/luebbe/tyringham/weiche.php" target="_blank">Teilen</a></li>
-				<li class="leseprobe tablet-content phone-content"><a href="https://f-bilandia.de/luebbe/tyringham/images/leseprobe.pdf">Leseprobe</a></li>
+				<li class="leseprobe tablet-content phone-content"><a href="https://f-bilandia.de/luebbe/tyringham/images/leseprobe.pdf" target="_blank">Leseprobe</a></li>
 				<li class="buch phone-contenti tablet-content"><a href="http://www.luebbe.de/Buecher/Historisches/Details/Id/978-3-404-16930-6?etcc_med=STC_CC_ATTR_VALUE_SOCIAL&etcc_cmp=Die%20Frauen%20von%20Tyringham%20Park&etcc_ctv=App&etcc_grp=Historisch&etcc_plc=Facebook&etcc_tar=Info&etcc_acy=bil&aut=McLoughlin&prf=TB" target="_blank">Buch</a></li>
 				<li class="backFb phone-content tablet-content"><a href="http://www.facebook.com/BasteiLuebbe" target="_blank">Zur&uuml;ck zu Facebook</a></li>
 			</ul>
