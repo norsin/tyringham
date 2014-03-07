@@ -4,7 +4,7 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <?php include "head.php" ?>
-<body class="home-page">
+<body class="mailform-page">
 
 
 
@@ -16,7 +16,7 @@
 	<div class="container">
 		<nav class="mainNav fourteen columns offset-by-one desktop-content tablet-content">
 			<ul class="navMenu">
-				<li class="seven columns gewinnspielBtn"><a href="index.php" class="active">Gewinnspiel</a></li>
+				<li class="seven columns gewinnspielBtn"><a href="index.php">Gewinnspiel</a></li>
 				<li class="seven columns buchBtn"><a href="book.php">Buch</a></li>
 			</ul>
 		</nav>
@@ -33,19 +33,7 @@
 			<p>Ganz im S&uuml;den Irlands befindet sich das pr&auml;chtige Anwesen von Lord und Lady Blackshaw &ndash; ein Ort voller Prunk und Privilegien. Doch ein verh&auml;ngnisvolles Ereignis im Jahr 1917 zerst&ouml;rt den Frieden des Hauses.</p>
 		</div>
 		<div class="content fourteen columns offset-by-one">
-			<h2 class="heading heading2">Gewinnspiel</h2>
-			<p>In unserem Gewinnspiel verlosen wir je 5 Exemplare des Buches und des H&oumlrbuches von &raquo;Die Frauen von Tyringham Park&laquo;. Dafür möchten wir von euch wissen:</p>
-			<p class="highlight">Wie hei&szlig;t die j&uuml;ngste Tochter von Lord und Lady Blackshaw?</p>
-			<p class="desktop-content tablet-content">Schickt uns die richtige L&ouml;sung per E-Mail und dem Betreff &raquo;Tyringham Park&laquo; bis zum 13.04.2014 an facebook@luebbe.de. Bitte gebt euren Namen und eure Postadresse an.</p>
-
-			<p class="phone-content">Schickt uns die richtige L&ouml;sung per E-Mail und dem Betreff &raquo;Tyringham Park&laquo; bis zum 13.04.2014 an gewinnspiel@luebbe.de. Bitte gebt euren Namen und eure Postadresse an.</p>
-			
-			<ul class="navMenu bottomNav">
-				<li class="mitmachen six columns desktop-content"><a href="mailFormPage.php">Mitmachen</a></li>
-				<li class="mitmachen six columns tablet-content phone-content"><a href="mailto:test@mail.test?&subject=Tyringham%20Gewinnspiel" target="_blank">Mitmachen</a></li>
-				<li class="teilen six columns desktop-content"><a href="https://www.facebook.com/sharer/sharer.php?u=https://f-bilandia.de/luebbe/tyringham/weiche.php" target="_blank">Teilen</a></li>
-				<li class="backToFB six columns tablet-content phone-content"><a href="http://www.facebook.com/BasteiLuebbe">Zur&uuml;ck zu Facebook</a></li>
-			</ul>
+			<?php include "mailForm.php"; ?>
 		</div>
 		<?php include "teilnahmebox.php"; ?>
 	</div><!-- container -->
