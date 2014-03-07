@@ -174,7 +174,7 @@ function get_data($var) {
     
     <form class="registerForm" <?php if (isset($disable) && $disable === true) echo ' style="display: none;"'; ?> method="post" action="<?php echo $_SERVER['PHP_SELF'] ;?>">
         <div class="textBlock">
-            <p>Introductory text to Tyringham game</p>
+            <p>Beantworte unsere Frage und nimm so am Gewinnspiel teil.</p>
         </div>
 
 
@@ -183,7 +183,7 @@ function get_data($var) {
         </noscript>
         <p>
 
-		<label for="auswetung">Text for the question</label> 
+		<label for="auswetung">Wie heißt die jüngste Tochter von Lord und Lady Blackshaw?</label> 
 			<input type="text" name="gewinnspielfrage" id="auswertung" value="<?php get_data("gewinnspielfrage"); ?>" />
 
                 <label for="name">Vor- und Nachname: *</label> 
