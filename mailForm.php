@@ -174,7 +174,7 @@ function get_data($var) {
     
     <form class="registerForm" <?php if (isset($disable) && $disable === true) echo ' style="display: none;"'; ?> method="post" action="<?php echo $_SERVER['PHP_SELF'] ;?>">
         <div class="textBlock">
-            <p>Beantworte unsere Frage und nimm so am Gewinnspiel teil.</p>
+            <p>Schickt uns die richtige L&ouml;sung &uuml;ber das Kontaktformular oder per E-Mail und dem Betreff &raquo;Tyringham Park&laquo; bis zum 13.04.2014 an facebook@luebbe.de.</p>
         </div>
 
 
@@ -183,7 +183,7 @@ function get_data($var) {
         </noscript>
         <p>
 
-		<label for="auswetung">Wie heißt die jüngste Tochter von Lord und Lady Blackshaw?</label> 
+		<label for="auswetung">Wie hei&szlig;t die j&uuml;ngste Tochter von Lord und Lady Blackshaw?</label> 
 			<input type="text" name="gewinnspielfrage" id="auswertung" value="<?php get_data("gewinnspielfrage"); ?>" />
 
                 <label for="name">Vor- und Nachname: *</label> 
