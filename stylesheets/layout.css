@@ -135,7 +135,8 @@ p {
 
 #teilnahmebox > * {
 	width: 94%;
-	margin: 10px 3%;
+	margin: 5px 3%;
+	float: left;
 }
 
 #teilnahmebox .close {
