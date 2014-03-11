@@ -516,9 +516,10 @@ margin-left: 9%;
 				background: none;
 			}
 
-			.navmenu.phone-content {
+			.navMenu.phone-content {
 				margin-top: 20px;
 				float: left;
+				width: 100%
 			}
 
 			.book-page .content {
