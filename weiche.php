@@ -11,7 +11,7 @@
         <meta property="og:image:width" content="200">
         <meta property="og:image:height" content="200">
         <meta property="og:title" content="Die Frauen von Tyringham Park"/>
-        <meta property="og:description" content="Für alle Fans von Downton Abbey: Jetzt Fan werden und die mitreißende Familiensaga Tyringham Park als Buch oder Hörbuch gewinnen!" />
+        <meta property="og:description" content="Jetzt Fan werden und die mitreißende Familiensaga als Buch oder Hörbuch gewinnen!" />
         <meta property="og:url" content="http://f-bilandia.de/luebbe/tyringham/weiche.php"/>
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
