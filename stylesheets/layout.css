@@ -224,8 +224,9 @@ p {
 
 .book-page .secNav li {
 	position: absolute;
-	top: 33%;
+	top: 360px;
 	width: 170px;
+	margin-bottom: 0;
 }
 
 .book-page .secNav li a:link,
@@ -247,12 +248,12 @@ p {
 
 .book-page .secNav li:nth-child(2),
 .book-page .secNav li:nth-child(5) {
-	margin-top: 10%;
+	margin-top: 80px;
 }
 
 .book-page .secNav li:nth-child(3),
 .book-page .secNav li:nth-child(6) {
-	margin-top: 22%;
+	margin-top: 180px;
 }
 
 .book-page .secNav li.hoerprobe a {
