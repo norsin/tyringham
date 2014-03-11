@@ -25,7 +25,7 @@ panasonic|philips|phone|playbook|sagem|sharp|sie-|silk|smartphone|sony|symbian|t
 |up\.browser|up\.link|vodafone|wap|webos|wireless|xda|xoom|zte)/i",$useragent))
 
 {
-header( 'Location: https://f-bilandia.de/luebbe/tyringham/index.php' );
+header( 'Location: https://f-bilandia.de/luebbe/tyringham/book.php' );
 } else {
 header( 'Location: https://f-bilandia.de/luebbe/tyringham/index_dispatcher.php' );
 }
