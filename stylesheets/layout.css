@@ -167,7 +167,7 @@ p {
 	padding: 0 10%;
 }
 
-.mailform-page .content form {
+.mailform-page .content form.registerForm {
     text-align: left;
 }
 
