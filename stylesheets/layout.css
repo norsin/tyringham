@@ -193,7 +193,10 @@ p {
 }
 
 .navMenu.bottomNav {
-	margin-top: 90px;
+	position: absolute;
+	left: 10%;
+	top: 900px;
+	width: 60%;
 }
 
 .home-page .navMenu.bottomNav li.teilen {
@@ -283,23 +286,24 @@ p {
 	padding: 0 10%;
 	float: left;
 	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .book-page .bookCover {
 margin-top: -10%;
 width: 40%;
-margin-left: 33%;
+margin-left: 9%;
 }
 
 .book-page .bottomNav {
-	float: left;
-	width: 100%;
-	margin-top: 0px;
+	top: 950px;
+	left: 20%;
+	height: 60px;
+	overflow: hidden;
 }
 
 .book-page .bottomNav li {
 	float: none;
+	display: block !important;
 }
 .book-page .bottomNav li.teilen a {
 	display: block;
@@ -335,7 +339,7 @@ margin-left: 33%;
 		}
 
 		.book-page .bookCover {
-			margin-left: 30%;
+			margin-left: 0%;
 		}
 
 		.book-page .secNav li.left {
@@ -355,7 +359,10 @@ margin-left: 33%;
 		.book-page .bottomNav {
 			margin-left: -4%;
 		}
-
+		
+		.navMenu.bottomNav {
+			margin-left: 0% !important;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -438,8 +445,14 @@ margin-left: 33%;
 
 
 			.navMenu.bottomNav {
-				margin-top: 0px;
+				margin: 0px;
 				padding: 0;
+				position: relative;
+				width: 100%;
+				float: left;
+				left: 0;
+				top: 0;
+				height: auto !important;
 			}
 
 			.navMenu.bottomNav li a:link, 
@@ -517,11 +530,14 @@ margin-left: 33%;
 			}
 
 			.navMenu.bottomNav {
-				float: left;
+				margin: 0px;
 				padding: 0;
+				position: relative;
 				width: 100%;
+				float: left;
+				left: 0;
+				top: 0;
 			}
-
 
 			.navMenu.bottomNav li a:link, 
 			.navMenu.bottomNav li a:visited {
