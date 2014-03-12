@@ -78,7 +78,7 @@
 		</div>
 		<div class="content fourteen columns offset-by-one">
 			<h2 class="heading heading2">Gewinnspiel</h2>
-			<p>In unserem Gewinnspiel verlosen wir je 5 Exemplare des Buches und des H&oumlrbuches von &raquo;Die Frauen von Tyringham Park&laquo;. Dafür möchten wir von euch wissen:</p>
+			<p>In unserem Gewinnspiel verlosen wir je 5 Exemplare des Buches und des H&ouml;rbuches von &raquo;Die Frauen von Tyringham Park&laquo;. Dafür möchten wir von euch wissen:</p>
 			<p class="highlight">Wie hei&szlig;t die j&uuml;ngste Tochter von Lord und Lady Blackshaw?</p>
 			<p class="desktop-content tablet-content">Schickt uns die richtige L&ouml;sung per E-Mail und dem Betreff &raquo;Tyringham Park&laquo; bis zum 13.04.2014 an facebook@luebbe.de. Bitte gebt euren Namen und eure Postadresse an.</p>
 
